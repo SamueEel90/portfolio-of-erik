@@ -101,15 +101,15 @@ const Hero: React.FC<HeroProps> = ({
             border border-[rgba(255,255,255,0.22)]
           "
         >
-          <h1 className="text-7xl sm:text-7xl font-light text-[var(--color-light-gray)] glow-blue mb-2 tracking-tight text-center">
+          <h1 className="text-7xl sm:text-7xl font-light text-neon-bronze glow-bronze mb-2 tracking-tight text-center">
             {title}
           </h1>
-          <h2 className="text-5xl sm:text-xl font-light text-[var(--color-neon-light-blue)] glow-neon-light-blue text-center">
+          <h2 className="text-5xl sm:text-xl font-light text-neon-light-blue glow-neon-light-blue text-center">
             {subtitle}
           </h2>
           {/* Placeholder for short intro */}
           <div className="mt-4 max-w-xs mx-auto">
-            <span className="block text-xl font-normal text-[var(--color-light-gray)] opacity-80 text-center">
+            <span className="block text-xl font-normal text-neon-gray glow-neon-gray opacity-80 text-center">
               {/* TODO: Replace or fill with a real introduction */}
               Short intro or bio goes here.
             </span>
@@ -129,7 +129,7 @@ const Hero: React.FC<HeroProps> = ({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.7 }}
-              className="text-4xl md:text-5xl xl:text-6xl font-light text-[var(--color-bronze)] glow-neon-bronze mb-3 tracking-tight text-left"
+              className="text-4xl md:text-5xl xl:text-6xl font-light text-neon-bronze glow-neon-bronze mb-3 tracking-tight text-left"
             >
               {title}
             </motion.h1>
@@ -150,7 +150,7 @@ const Hero: React.FC<HeroProps> = ({
             transition={{ duration: 1.2, delay: 1, ease: "easeOut" }}
             className="flex flex-col items-start justify-center bg-[rgba(35,39,42,0.48)] backdrop-blur-lg rounded-2xl shadow-2xl px-10 py-10 max-w-md w-full border border-[rgba(255,255,255,0.18)]"
           >
-            <span className="text-base md:text-2xl font-normal text-[var(--color-neon-pink)] glow-neon-pink opacity-90">
+            <span className="text-base md:text-2xl font-normal text-neon-pink glow-neon-gray opacity-90">
               {/* TODO: Replace or fill with a real introduction */}
               Short intro or bio goes here. You can add a brief description about yourself, your work, or your philosophy as a photographer.
             </span>

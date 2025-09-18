@@ -28,14 +28,14 @@
   --color-background: #f7efe9;        /* overall soft beige from out-of-focus background */
   
   --color-bronze: #dea935;            /* bronze metal details */
-  --color-neon-bronze: #de9952;       /* luxury neon bronze */
-  --color-neon-light-blue: #38e8ff;   /* luxury neon light blue */
-  --color-neon-pink: #ff4fa3;         /* luxury neon pink */
-
+  --color-neon-bronze: #cd7f32;       /* luxury neon bronze */
+  --color-neon-light-blue: #b3d3f3;   /* luxury neon light blue */
+  --color-neon-pink: #f093c0;         /* luxury neon pink */
+  --color-neon-gray: #c4def9;         /* luxury neon gray/blue */
   /* Glows */
-  --glow-bronze: 0 0 5px #ffd699, 0 0 10px #ffd699, 0 0 20px #ffd699, 0 0 32px #ffefcc;
+  --glow-bronze: 0 0 8px #ffd699, 0 0 10px #ffd699, 0 0 20px #ffd699;;
   --glow-neon-bronze: 0 0 8px #de9952, 0 0 20px #ffefcc, 0 0 40px #ffefcc;
-
+  --glow-neon-gray: 0 0 8px #b6cce2, 0 0 20px #b6cce2, 0 0 40px #b6cce2;
   --glow-blue: 0 0 2px #b6cce2, 0 0 1px #b6cce2, 0 0 2px #b6cce2;
   --glow-neon-light-blue: 0 0 8px #38e8ff, 0 0 20px #c3fbff, 0 0 40px #c3fbff;
 
