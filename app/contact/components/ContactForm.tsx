@@ -103,7 +103,7 @@ const ContactForm: React.FC = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="w-1/2 mt-10 text-secondary py-3 border border-accent-pink rounded-3xl hover:bg-gray-800 transition text-2xl"
+            className="w-1/2 mt-10 text-secondary py-3 border border-accent-pink rounded-3xl hover:scale-110 hover:bg-accent-pink/30 transition text-2xl"
           >
             Odoslať
           </button>
