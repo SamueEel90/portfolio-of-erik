@@ -8,13 +8,13 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center md:justify-between w-full gap-6 md:gap-0">
           {/* Logo */}
           <Link href="/" className="text-5xl md:text-6xl font-monotype-corsiva cursor-pointertransition-colors">
-          <h1 className="text-5xl md:text-6xl font-monotype-corsiva cursor-pointer text-secondary glow-pink hover:text-accent-pink transition-colors">
+          <h1 className="text-5xl md:text-6xl font-monotype-corsiva cursor-pointer text-neon-light-blue glow-neon-bronze hover:text-accent-pink transition-colors">
             Erik Gunár
           </h1>
           </Link>
 
           {/* Navigation */}
-          <nav className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-10 text-secondary glow-pink font-medium text-lg md:text-xl">
+          <nav className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-10 text-neon-bronze glow-neon-bronze font-medium text-lg md:text-xl">
             <Link href="/contact" className="hover:text-gray-300 transition-colors">Spolupráca</Link>
             <Link href="/fotenie" className="hover:text-gray-300 transition-colors">Fotenie</Link>
             <Link href="/eventy" className="hover:text-gray-300 transition-colors">Eventy</Link>
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Bottom section: copyright */}
-        <p className="text-accent-pink font-monotype-corsiva text-xl md:text-2xl mt-8 md:mt-12">
+        <p className="text-neon-pink font-monotype-corsiva text-xl md:text-2xl mt-8 md:mt-12">
           &copy; {new Date().getFullYear()} EG Photography. beta
         </p>
       </footer>

@@ -25,7 +25,7 @@ const references = [
 const ReferencesSection: React.FC = () => {
   return (
     <section className="w-full mt-10 px-6 md:px-24 space-y-16">
-      <h2 className="text-center text-bronze text-2xl md:text-4xl text-secondary mb-8 ">
+      <h2 className="text-center text-neon-bronze text-2xl md:text-4xl text-secondary mb-8 ">
         Spokojní Klienti
       </h2>
 

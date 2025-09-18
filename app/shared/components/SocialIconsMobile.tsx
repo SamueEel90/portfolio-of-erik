@@ -21,7 +21,7 @@ const SocialIconsMobile:React.FC = () => {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 flex items-center justify-center rounded-full border border-gray-300  shadow-md text-secondary hover:text-accent-pink transition-all transform hover:scale-110"
+                className="w-12 h-12 flex items-center justify-center rounded-full border border-gray-300  shadow-md text-neon-bronze hover:text-neon-light-blue transition-all transform hover:scale-110"
               >
                 {icon}
               </a>

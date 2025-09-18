@@ -53,7 +53,7 @@ const Header: React.FC = () => {
           </a>
           <a
             href="/fotenie"
-            className="relative px-2 py-1 text-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
           >
             Fotenie
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-orange)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
@@ -67,7 +67,7 @@ const Header: React.FC = () => {
           </a>
           <a
             href="/galeria"
-            className="relative px-2 py-1 text-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
           >
             Galéria
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-pink)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
