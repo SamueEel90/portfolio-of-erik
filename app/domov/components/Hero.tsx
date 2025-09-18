@@ -109,7 +109,7 @@ const Hero: React.FC<HeroProps> = ({
           </h2>
           {/* Placeholder for short intro */}
           <div className="mt-4 max-w-xs mx-auto">
-            <span className="block text-xl font-normal text-neon-gray glow-neon-gray opacity-80 text-center">
+            <span className="block text-xl font-normal text-neon-pink glow-neon-gray opacity-80 text-center">
               {/* TODO: Replace or fill with a real introduction */}
               Short intro or bio goes here.
             </span>
@@ -117,7 +117,7 @@ const Hero: React.FC<HeroProps> = ({
         </motion.div>
 
         {/* MD+ SCREENS: Side-by-side cards */}
-        <div className="hidden md:flex absolute inset-0 items-center justify-center space-x-8 px-8 z-30">
+        <div className="hidden md:flex absolute top-0 inset-0 items-center justify-center space-x-8 px-8 z-30">
           {/* Left: Title + Subtitle */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}

@@ -34,12 +34,13 @@
   --color-neon-gray: #c4def9;         /* luxury neon gray/blue */
   /* Glows */
   --glow-bronze: 0 0 8px #ffd699, 0 0 10px #ffd699, 0 0 20px #ffd699;;
-  --glow-neon-bronze: 0 0 8px #de9952, 0 0 20px #ffefcc, 0 0 40px #ffefcc;
+  --glow-neon-bronze: 0 0 2px #de9952, 0 0 1px #ffefcc, 0 0 2px #ffefcc;
   --glow-neon-gray: 0 0 8px #b6cce2, 0 0 20px #b6cce2, 0 0 40px #b6cce2;
-  --glow-blue: 0 0 2px #b6cce2, 0 0 1px #b6cce2, 0 0 2px #b6cce2;
+  --glow-blue: 0 0 2px #b3d3f3, 0 0 1px #b3d3f3, 0 0 2px #b3d3f3;
   --glow-neon-light-blue: 0 0 8px #38e8ff, 0 0 20px #c3fbff, 0 0 40px #c3fbff;
+  --glow-neon-light-blue-enhanced: 0 0 18px #b3d3f3, 0 0 30px #b3d3f3, 0 0 150px #b3d3f3;
 
-  --glow-neon-pink: 0 0 8px #ff4fa3, 0 0 20px #ffd6f5, 0 0 40px #ffd6f5;
+  --glow-neon-pink: 0 0 2px #f093c0, 0 0 20px #f093c0, 0 0 40px #f093c0;
 }
 
 /* Color Usage Suggestions:**

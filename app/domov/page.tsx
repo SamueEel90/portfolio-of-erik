@@ -123,11 +123,12 @@ export default async function HomePage() {
   imageSrc="/pictures/1210151.jpg"        // default desktop
   imageSrcMobile="/pictures/phone(2).jpg" // mobile override
   href="/o-mne"
+  
 />
 
       <SocialIconsMobile />
 
-      <div className="w-full md:max-w-11/12 mx-auto px-1 md:px-12">
+      <div className="w-full md:max-w-11/12 mx-auto ">
         <PortfolioHighlights items={highlights} />
        
         <PortfolioGrid items={gridItems} />

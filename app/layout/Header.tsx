@@ -31,7 +31,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-12 py-3">
         {/* Logo */}
         <a
-          className="md:text-5xl font-monotype-corsiva text-4xl tracking-tight text-neon-light-blue glow-light-blue cursor-pointer select-none"
+          className="md:text-5xl font-monotype-corsiva text-4xl tracking-tight text-neon-light-blue glow-blue hover:te cursor-pointer select-none"
           href="/"
           aria-label="Erik Gunár Homepage"
           style={{
@@ -46,35 +46,35 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex space-x-8 text-2xl ">
           <a
             href="/o-mne"
-            className="relative px-2 py-1 text-bronze transition-colors duration-200 hover:text-[var(--color-accent-pink)]"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
           >
             O mne
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-pink)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/fotenie"
-            className="relative px-2 py-1 text-secondary transition-colors duration-200 hover:text-[var(--color-accent-pink)]"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
           >
             Fotenie
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-orange)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/eventy"
-            className="relative px-2 py-1 text-secondary transition-colors duration-200 hover:text-[var(--color-accent-pink)]"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
           >
             Eventy
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-secondary)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/galeria"
-            className="relative px-2 py-1 text-secondary transition-colors duration-200 hover:text-[var(--color-accent-pink)]"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
           >
             Galéria
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-pink)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/contact"
-            className="relative px-2 py-1 text-secondary transition-colors duration-200 hover:text-[var(--color-accent-pink)]"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
           >
             Kontakt / Spolupráca
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-pink)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
