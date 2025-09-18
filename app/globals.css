@@ -30,16 +30,22 @@
   --color-form-background: #ffe5d0;   /* pale peachy highlight (from hand and sky) */
   --color-accent-orange: #f9ae63;     /* strong orange reflection (water, sunset) */
   --color-accent-pink: #f3b6be;       /* blush-pink tone from sky */
-
+  --color-bronze: #cd7f32;          /* bronze metal details */
+  --color-red: #fb4f12;            /* soft pink from sky */
+  --color-light-blue: #b6cce2;      /* light blue from sky */
   /* ✨ Glow Colors */
-  --glow-bronze: 0 0 5px #b88e61, 0 0 10px #b88e61, 0 0 20px #b88e61;
-  --glow-orange: 0 0 5px #f9ae63, 0 0 10px #f9ae63, 0 0 20px #f9ae63;
-  --glow-pink: 0 0 5px #e7b8be, 0 0 10px #e7b8be, 0 0 20px #e7b8be;
-  --glow-gray: 0 0 5px #6c7074, 0 0 10px #6c7074, 0 0 20px #6c7074;
-  --glow-black: 0 0 5px #23272a, 0 0 10px #23272a, 0 0 20px #23272a;
-  --glow-light-blue: 0 0 2px #7fb0ff, 0 0 1px #7fb0ff, 0 0 1px #7fb0ff;
-}
+  --glow-bronze: 0 0 5px #ffd699, 0 0 10px #ffd699, 0 0 20px #ffd699;
+  --glow-red: 0 0 5px #ffd6f5, 0 0 10px #ffd6f5, 0 0 20px #ffd6f5;
+  --glow-light-blue: 0 0 2px #b6cce2, 0 0 1px #b6cce2, 0 0 2px #b6cce2;
 
+  --glow-blue: 0 0 5px #a3c9f5, 0 0 10px #a3c9f5, 0 0 20px #a3c9f5;
+  --glow-purple: 0 0 5px #d1b3ff, 0 0 10px #d1b3ff, 0 0 20px #d1b3ff;
+  --glow-light-purple: 0 0 5px #e6ccff, 0 0 10px #e6ccff, 0 0 20px #e6ccff;
+  --glow-green: 0 0 5px #b3ffcc, 0 0 10px #b3ffcc, 0 0 20px #b3ffcc;
+  --glow-light-green: 0 0 5px #ccffe6, 0 0 10px #ccffe6, 0 0 20px #ccffe6;
+   --glow-yellow: 0 0 5px #ffff99, 0 0 10px #ffff99, 0 0 20px #ffff99;
+   --glow-orange: 0 0 5px #ffcc99, 0 0 10px #ffcc99, 0 0 20px #ffcc99;
+}
 
 /* Color Usage Suggestions:**
 - `--color-primary` and `--color-dark-gray`: Nav, backgrounds, or text for a moody, professional vibe.

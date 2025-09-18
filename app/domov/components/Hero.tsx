@@ -85,6 +85,7 @@ const Hero: React.FC<HeroProps> = ({
         </svg>
 
         {/* MOBILE/MD: Centered Glass Card, Smaller */}
+              {/* MOBILE/MD: Centered Glass Card, Larger Text */}
         <motion.div
           initial={{ opacity: 0, y: 40, scale: 1.07 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -101,15 +102,15 @@ const Hero: React.FC<HeroProps> = ({
             border border-[rgba(255,255,255,0.22)]
           "
         >
-          <h1 className="text-3xl sm:text-4xl font-light text-[var(--color-light-gray)] glow-blue mb-2 tracking-tight text-center">
+          <h1 className="text-7xl sm:text-7xl font-light text-[var(--color-light-gray)] glow-blue mb-2 tracking-tight text-center">
             {title}
           </h1>
-          <h2 className="text-lg sm:text-xl font-light glow-light-blue text-gray-200 text-center">
+          <h2 className="text-5xl sm:text-xl font-light glow-light-blue text-gray-200 text-center">
             {subtitle}
           </h2>
           {/* Placeholder for short intro */}
           <div className="mt-4 max-w-xs mx-auto">
-            <span className="block text-base font-normal text-[var(--color-light-gray)] opacity-80 text-center">
+            <span className="block text-xl font-normal text-[var(--color-light-gray)] opacity-80 text-center">
               {/* TODO: Replace or fill with a real introduction */}
               Short intro or bio goes here.
             </span>
