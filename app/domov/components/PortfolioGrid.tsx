@@ -28,7 +28,7 @@ const PortfolioGrid: React.FC<Props> = ({ items }) => {
               break-inside-avoid
               rounded-2xl
               overflow-hidden
-              bg-gradient-to-br from-white/45 to-gray-100/10
+              bg-gradient-to-br from-neon-light-blue to-neon-pink/10
               shadow-[0_6px_24px_0_rgba(30,30,32,0.13)]
               transition-transform transition-shadow duration-400
               hover:scale-[1.022] hover:shadow-2xl
@@ -58,8 +58,8 @@ const PortfolioGrid: React.FC<Props> = ({ items }) => {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-light-gray glow-pink mb-1">{item.title}</h3>
-              <p className="text-base text-light-gray glow-pink leading-snug">{item.description}</p>
+              <h3 className="text-lg font-semibold text-neon-light-blue glow-pink mb-1">{item.title}</h3>
+              <p className="text-base text-neon-pink glow-pink leading-snug">{item.description}</p>
             </div>
           </div>
         ))}

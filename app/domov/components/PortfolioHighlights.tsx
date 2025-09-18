@@ -47,7 +47,7 @@ const PortfolioHighlights: React.FC<Props> = ({ items }) => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, delay: 0.12, ease: [0.4, 0, 0.2, 1] }}
-        className="text-2xl md:text-4xl font-semibold text-center text-secondary mb-8"
+        className="text-2xl md:text-4xl font-semibold text-center text-neon-bronze mb-8"
       >
         Moja Práca
       </motion.p>
@@ -153,7 +153,7 @@ const PortfolioHighlights: React.FC<Props> = ({ items }) => {
                 <span
                   className={`text-2xl md:text-3xl lg:text-4xl font-semibold ${item.font ?? ""} 
                     bg-gradient-to-br from-black/40 via-slate-700/10 to-white/10 backdrop-blur-md rounded-xl px-4 py-2 
-                    text-secondary glow-pink shadow-xl border border-white/10`}
+                    text-neon-blue glow-pink shadow-xl border border-white/10`}
                   style={{
                     textShadow: "0 2px 18px rgba(0,0,0,0.21)",
                     letterSpacing: ".02em",

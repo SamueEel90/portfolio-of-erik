@@ -25,7 +25,7 @@ const references = [
 const ReferencesSection: React.FC = () => {
   return (
     <section className="w-full mt-10 px-6 md:px-24 space-y-16">
-      <h2 className="text-center text-2xl md:text-4xl text-secondary mb-8 ">
+      <h2 className="text-center text-bronze text-2xl md:text-4xl text-secondary mb-8 ">
         Spokojní Klienti
       </h2>
 
@@ -46,8 +46,8 @@ const ReferencesSection: React.FC = () => {
             </span>
           </span>
           <div className="w-full md:w-2/3 text-center md:text-left space-y-4 z-20">
-            <h3 className="text-2xl font-semibold text-accent-pink">{ref.name}</h3>
-            <p className=" text-light-gray glow-pink text-lg leading-relaxed">{ref.text}</p>
+            <h3 className="text-2xl font-semibold text-neon-light-blue">{ref.name}</h3>
+            <p className=" text-neon-pink glow-pink text-lg leading-relaxed">{ref.text}</p>
           </div>
 
           {ref.image && (
