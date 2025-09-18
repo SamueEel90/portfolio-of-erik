@@ -84,8 +84,7 @@ const Hero: React.FC<HeroProps> = ({
           ))}
         </svg>
 
-        {/* MOBILE/MD: Centered Glass Card, Smaller */}
-              {/* MOBILE/MD: Centered Glass Card, Larger Text */}
+        {/* MOBILE/MD: Centered Glass Card */}
         <motion.div
           initial={{ opacity: 0, y: 40, scale: 1.07 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -105,7 +104,7 @@ const Hero: React.FC<HeroProps> = ({
           <h1 className="text-7xl sm:text-7xl font-light text-[var(--color-light-gray)] glow-blue mb-2 tracking-tight text-center">
             {title}
           </h1>
-          <h2 className="text-5xl sm:text-xl font-light glow-light-blue text-gray-200 text-center">
+          <h2 className="text-5xl sm:text-xl font-light text-[var(--color-neon-light-blue)] glow-neon-light-blue text-center">
             {subtitle}
           </h2>
           {/* Placeholder for short intro */}
@@ -130,7 +129,7 @@ const Hero: React.FC<HeroProps> = ({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.7 }}
-              className="text-4xl md:text-5xl xl:text-6xl font-light text-[var(--color-light-gray)] glow-blue mb-3 tracking-tight text-left"
+              className="text-4xl md:text-5xl xl:text-6xl font-light text-[var(--color-bronze)] glow-neon-bronze mb-3 tracking-tight text-left"
             >
               {title}
             </motion.h1>
@@ -138,7 +137,7 @@ const Hero: React.FC<HeroProps> = ({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1 }}
-              className="text-lg md:text-2xl font-light glow-light-blue text-gray-200 glow-pink text-left"
+              className="text-lg md:text-2xl font-light text-[var(--color-neon-light-blue)] glow-neon-light-blue text-left"
             >
               {subtitle}
             </motion.h2>
@@ -151,7 +150,7 @@ const Hero: React.FC<HeroProps> = ({
             transition={{ duration: 1.2, delay: 1, ease: "easeOut" }}
             className="flex flex-col items-start justify-center bg-[rgba(35,39,42,0.48)] backdrop-blur-lg rounded-2xl shadow-2xl px-10 py-10 max-w-md w-full border border-[rgba(255,255,255,0.18)]"
           >
-            <span className="text-base md:text-lg font-normal text-accent-pink glow-pink opacity-90">
+            <span className="text-base md:text-2xl font-normal text-[var(--color-neon-pink)] glow-neon-pink opacity-90">
               {/* TODO: Replace or fill with a real introduction */}
               Short intro or bio goes here. You can add a brief description about yourself, your work, or your philosophy as a photographer.
             </span>

@@ -31,7 +31,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-12 py-3">
         {/* Logo */}
         <a
-          className="md:text-4xl text-3xl tracking-tight text-light-blue glow-light-blue cursor-pointer select-none"
+          className="md:text-5xl font-monotype-corsiva text-4xl tracking-tight text-neon-light-blue glow-light-blue cursor-pointer select-none"
           href="/"
           aria-label="Erik Gunár Homepage"
           style={{
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
         </a>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-8 text-lg font-normal">
+        <nav className="hidden md:flex space-x-8 text-2xl ">
           <a
             href="/o-mne"
             className="relative px-2 py-1 text-bronze transition-colors duration-200 hover:text-[var(--color-accent-pink)]"

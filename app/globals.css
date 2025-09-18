@@ -23,28 +23,23 @@
 @theme {
   --color-primary: #23272a;           /* deep camera black */
   --color-secondary: #d59959;         /* warm bronze highlight from camera ring reflection */
-  --color-medium-gray: #6c7074;       /* lens/metal details */
-  --color-dark-gray: #2b2f2f;         /* background and camera body */
+ 
   --color-light-gray: #e9e6e2;        /* soft background blur */
   --color-background: #f7efe9;        /* overall soft beige from out-of-focus background */
-  --color-form-background: #ffe5d0;   /* pale peachy highlight (from hand and sky) */
-  --color-accent-orange: #f9ae63;     /* strong orange reflection (water, sunset) */
-  --color-accent-pink: #f3b6be;       /* blush-pink tone from sky */
-  --color-bronze: #cd7f32;          /* bronze metal details */
-  --color-red: #fb4f12;            /* soft pink from sky */
-  --color-light-blue: #b6cce2;      /* light blue from sky */
-  /* ✨ Glow Colors */
-  --glow-bronze: 0 0 5px #ffd699, 0 0 10px #ffd699, 0 0 20px #ffd699;
-  --glow-red: 0 0 5px #ffd6f5, 0 0 10px #ffd6f5, 0 0 20px #ffd6f5;
-  --glow-light-blue: 0 0 2px #b6cce2, 0 0 1px #b6cce2, 0 0 2px #b6cce2;
+  
+  --color-bronze: #dea935;            /* bronze metal details */
+  --color-neon-bronze: #de9952;       /* luxury neon bronze */
+  --color-neon-light-blue: #38e8ff;   /* luxury neon light blue */
+  --color-neon-pink: #ff4fa3;         /* luxury neon pink */
 
-  --glow-blue: 0 0 5px #a3c9f5, 0 0 10px #a3c9f5, 0 0 20px #a3c9f5;
-  --glow-purple: 0 0 5px #d1b3ff, 0 0 10px #d1b3ff, 0 0 20px #d1b3ff;
-  --glow-light-purple: 0 0 5px #e6ccff, 0 0 10px #e6ccff, 0 0 20px #e6ccff;
-  --glow-green: 0 0 5px #b3ffcc, 0 0 10px #b3ffcc, 0 0 20px #b3ffcc;
-  --glow-light-green: 0 0 5px #ccffe6, 0 0 10px #ccffe6, 0 0 20px #ccffe6;
-   --glow-yellow: 0 0 5px #ffff99, 0 0 10px #ffff99, 0 0 20px #ffff99;
-   --glow-orange: 0 0 5px #ffcc99, 0 0 10px #ffcc99, 0 0 20px #ffcc99;
+  /* Glows */
+  --glow-bronze: 0 0 5px #ffd699, 0 0 10px #ffd699, 0 0 20px #ffd699, 0 0 32px #ffefcc;
+  --glow-neon-bronze: 0 0 8px #de9952, 0 0 20px #ffefcc, 0 0 40px #ffefcc;
+
+  --glow-blue: 0 0 2px #b6cce2, 0 0 1px #b6cce2, 0 0 2px #b6cce2;
+  --glow-neon-light-blue: 0 0 8px #38e8ff, 0 0 20px #c3fbff, 0 0 40px #c3fbff;
+
+  --glow-neon-pink: 0 0 8px #ff4fa3, 0 0 20px #ffd6f5, 0 0 40px #ffd6f5;
 }
 
 /* Color Usage Suggestions:**
