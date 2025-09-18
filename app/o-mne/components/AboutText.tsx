@@ -15,7 +15,7 @@ const AboutText: React.FC = () => {
       </section>
 
       <section className="space-y-4  mx-auto md:mx-0">
-        <p className="text-light-gray glow-pink text-2xl leading-relaxed lg:text-left lg:max-w-2xl">
+        <p className="text-accent-pink glow-pink text-2xl leading-relaxed lg:text-left lg:max-w-2xl">
           Mojím cieľom je zachytiť autentické momenty a emócie, ktoré robia každý príbeh jedinečným.
           Každá fotografia by mala rozprávať príbeh, ktorý vyvoláva spomienky a emócie aj po rokoch.
         </p>

@@ -20,7 +20,7 @@ export default async function HomePage() {
   {
     href: "/galeria/wedding",
     src: "/pictures/wedding.jpg",
-    title: "Svatby",
+    title: "Svadby",
     font: "font-extralight",
   },
   {

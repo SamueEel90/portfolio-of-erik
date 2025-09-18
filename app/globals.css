@@ -22,14 +22,14 @@
 }
 @theme {
   --color-primary: #23272a;           /* deep camera black */
-  --color-secondary: #b88e61;         /* warm bronze highlight from camera ring reflection */
+  --color-secondary: #d59959;         /* warm bronze highlight from camera ring reflection */
   --color-medium-gray: #6c7074;       /* lens/metal details */
   --color-dark-gray: #2b2f2f;         /* background and camera body */
   --color-light-gray: #e9e6e2;        /* soft background blur */
   --color-background: #f7efe9;        /* overall soft beige from out-of-focus background */
   --color-form-background: #ffe5d0;   /* pale peachy highlight (from hand and sky) */
   --color-accent-orange: #f9ae63;     /* strong orange reflection (water, sunset) */
-  --color-accent-pink: #e7b8be;       /* blush-pink tone from sky */
+  --color-accent-pink: #f3b6be;       /* blush-pink tone from sky */
 
   /* ✨ Glow Colors */
   --glow-bronze: 0 0 5px #b88e61, 0 0 10px #b88e61, 0 0 20px #b88e61;
@@ -37,6 +37,7 @@
   --glow-pink: 0 0 5px #e7b8be, 0 0 10px #e7b8be, 0 0 20px #e7b8be;
   --glow-gray: 0 0 5px #6c7074, 0 0 10px #6c7074, 0 0 20px #6c7074;
   --glow-black: 0 0 5px #23272a, 0 0 10px #23272a, 0 0 20px #23272a;
+  --glow-light-blue: 0 0 2px #7fb0ff, 0 0 1px #7fb0ff, 0 0 1px #7fb0ff;
 }
 
 
