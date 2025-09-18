@@ -1,0 +1,104 @@
+
+@import "tailwindcss";
+
+:root {
+  font-size: 16px;
+  font-family: var(--font-yrsa);
+  background: var(--color-black);
+  
+  
+  font-family: var(--font-yrsa);
+  scroll-behavior: smooth;
+}
+@theme inline {
+--font-poiret: 'Poiret One', sans-serif;
+--font-roboto: 'Roboto', sans-serif;
+--font-bokor: 'Bokor', serif;
+--font-yrsa: 'Yrsa', serif;
+--font-alumni-sans: 'Alumni Sans', sans-serif, Italic;
+--font-lugrasimo: 'Lugrasimo', cursive;
+--font-nunito: 'Nunito', sans-serif;
+--font-monotype-corsiva: 'Monotype Corsiva', cursive;
+}
+@theme {
+  --color-primary: #23272a;           /* deep camera black */
+  --color-secondary: #b88e61;         /* warm bronze highlight from camera ring reflection */
+  --color-medium-gray: #6c7074;       /* lens/metal details */
+  --color-dark-gray: #2b2f2f;         /* background and camera body */
+  --color-light-gray: #e9e6e2;        /* soft background blur */
+  --color-background: #f7efe9;        /* overall soft beige from out-of-focus background */
+  --color-form-background: #ffe5d0;   /* pale peachy highlight (from hand and sky) */
+  --color-accent-orange: #f9ae63;     /* strong orange reflection (water, sunset) */
+  --color-accent-pink: #e7b8be;       /* blush-pink tone from sky */
+
+  /* ✨ Glow Colors */
+  --glow-bronze: 0 0 5px #b88e61, 0 0 10px #b88e61, 0 0 20px #b88e61;
+  --glow-orange: 0 0 5px #f9ae63, 0 0 10px #f9ae63, 0 0 20px #f9ae63;
+  --glow-pink: 0 0 5px #e7b8be, 0 0 10px #e7b8be, 0 0 20px #e7b8be;
+  --glow-gray: 0 0 5px #6c7074, 0 0 10px #6c7074, 0 0 20px #6c7074;
+  --glow-black: 0 0 5px #23272a, 0 0 10px #23272a, 0 0 20px #23272a;
+}
+
+
+/* Color Usage Suggestions:**
+- `--color-primary` and `--color-dark-gray`: Nav, backgrounds, or text for a moody, professional vibe.
+- `--color-secondary` and `--color-accent-orange`: Call-to-actions, buttons, or highlights.
+- `--color-background` and `--color-form-background`: Main background and card/form backgrounds for warmth and clarity.
+- `--color-light-gray` and `--color-medium-gray`: Borders, secondary text, or subtle separators.
+- `--color-accent-pink`: Details, badge, or hover states for a soft artistic touch.
+- Glow colors: For modern hover effects or to highlight gallery images.
+
+This palette captures both the technical and artistic aspects of photography, grounded in the tones of your images. */
+body {
+
+  font-family: var(--font-yrsa);
+  scroll-behavior: smooth;
+}
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.1); /* veľmi jemná biela vrstva */
+  backdrop-filter: blur(204px);           /* rozmazanie pre sklenený efekt */
+  -webkit-backdrop-filter: blur(6px);   /* podpora pre Safari */
+  z-index: -1;                          /* aby bolo pod obsahom */
+}
+
+.glow-blue {
+  text-shadow: var(--glow-blue);
+}
+
+.glow-light-blue {
+  text-shadow: var(--glow-light-blue);
+}
+.glow-purple {
+  text-shadow: var(--glow-purple);
+}
+
+.glow-light-purple {
+  text-shadow: var(--glow-light-purple);
+}
+
+.glow-green {
+  text-shadow: var(--glow-green);
+}
+
+.glow-light-green {
+  text-shadow: var(--glow-light-green);
+}
+
+.glow-yellow {
+  text-shadow: var(--glow-yellow);
+}
+
+.glow-orange {
+  text-shadow: var(--glow-orange);
+}
