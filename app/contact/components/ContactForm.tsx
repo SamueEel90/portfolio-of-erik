@@ -38,57 +38,64 @@ const ContactForm: React.FC = () => {
     }
   };
 
+  // Tailwind placeholder color class for text-secondary
+  const placeholderClass = "placeholder:text-secondary";
+
   return (
     <div className="flex justify-center items-center ">
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-4xl space-y-6 bg-form-background shadow-md rounded-2xl p-6"
+        className="w-full max-w-4xl space-y-6 shadow-md rounded-2xl p-6"
       >
         <div>
-          <label className="block text-xl font-medium text-dark-gray">Meno a priezvisko</label>
+          <label className="block text-xl font-medium text-light-gray glow-pink">Meno a priezvisko</label>
           <input
             type="text"
             name="name"
             required
             value={formData.name}
             onChange={handleChange}
-            className="mt-1 block w-full border border-light-gray rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none"
+            placeholder="Zadajte vaše meno"
+            className={`mt-1 block w-full border border-accent-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
           />
         </div>
 
         <div>
-          <label className="block text-xl font-medium text-dark-gray">Email</label>
+          <label className="block text-xl font-medium text-light-gray glow-pink">Email</label>
           <input
             type="email"
             name="email"
             required
             value={formData.email}
             onChange={handleChange}
-            className="mt-1 block w-full border border-light-gray rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none"
+            placeholder="Váš email"
+            className={`mt-1 block w-full border border-accent-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
           />
         </div>
 
         <div>
-          <label className="block text-xl font-medium text-dark-gray">Dátum</label>
+          <label className="block text-xl font-medium text-light-gray glow-pink">Dátum</label>
           <input
             type="date"
             name="date"
             required
             value={formData.date}
             onChange={handleChange}
-            className="mt-1 block w-full border border-light-gray rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none"
+            placeholder="Vyberte dátum"
+            className={`mt-1 block w-full border border-accent-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
           />
         </div>
 
         <div>
-          <label className="block text-xl font-medium text-dark-gray">Správa</label>
+          <label className="block text-xl font-medium text-light-gray glow-pink">Správa</label>
           <textarea
             name="message"
             rows={5}
             required
             value={formData.message}
             onChange={handleChange}
-            className="mt-1 text-lg block w-full border border-light-gray rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none"
+            placeholder="Vaša správa"
+            className={`mt-1 text-lg block w-full border border-light-gray rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
           />
         </div>
 
@@ -96,7 +103,7 @@ const ContactForm: React.FC = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="w-1/2 bg-black text-light-gray py-3 rounded-4xl hover:bg-gray-800 transition text-2xl"
+            className="w-1/2 mt-10 text-secondary py-3 border border-accent-pink rounded-3xl hover:bg-gray-800 transition text-2xl"
           >
             Odoslať
           </button>

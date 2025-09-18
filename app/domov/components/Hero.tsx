@@ -93,7 +93,7 @@ const Hero: React.FC<HeroProps> = ({
             absolute md:hidden
             top-1/2 left-1/2 z-30
             -translate-x-1/2 -translate-y-1/2
-            bg-[rgba(247,239,233,0.18)]
+            bg-[rgba(35,39,42,0.48)]
             backdrop-blur-[12px]
             rounded-2xl shadow-2xl
             flex flex-col items-center justify-center
@@ -137,7 +137,7 @@ const Hero: React.FC<HeroProps> = ({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1 }}
-              className="text-lg md:text-2xl font-light glow-light-blue text-gray-200 text-left"
+              className="text-lg md:text-2xl font-light glow-light-blue text-gray-200 glow-pink text-left"
             >
               {subtitle}
             </motion.h2>
@@ -148,9 +148,9 @@ const Hero: React.FC<HeroProps> = ({
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2, delay: 1, ease: "easeOut" }}
-            className="flex flex-col items-start justify-center bg-[rgba(247,239,233,0.3)] backdrop-blur-lg rounded-2xl shadow-2xl px-10 py-10 max-w-md w-full border border-[rgba(255,255,255,0.18)]"
+            className="flex flex-col items-start justify-center bg-[rgba(35,39,42,0.48)] backdrop-blur-lg rounded-2xl shadow-2xl px-10 py-10 max-w-md w-full border border-[rgba(255,255,255,0.18)]"
           >
-            <span className="text-base md:text-lg font-normal text-[var(--color-dark-gray)] opacity-90">
+            <span className="text-base md:text-lg font-normal text-accent-pink glow-pink opacity-90">
               {/* TODO: Replace or fill with a real introduction */}
               Short intro or bio goes here. You can add a brief description about yourself, your work, or your philosophy as a photographer.
             </span>

@@ -20,7 +20,7 @@ const Galeria: React.FC = () => {
 
   return (
     <section className="sm:max-w-9/12 lg:max-w-8/12 w-full mx-auto px-4 my-5 mt-25">
-      <h2 className="text-3xl md:text-5xl font-light text-center mb-8">Moja galéria</h2>
+      <h2 className="text-3xl md:text-5xl font-light text-center text-secondary mb-8">Moja galéria</h2>
 
       {categories.map((cat, idx) => (
         <div

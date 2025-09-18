@@ -19,7 +19,7 @@ const SocialIconsDesktop:React.FC = () => {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 flex items-center justify-center rounded-full border border-gray-300 bg-background shadow-md text-primary hover:bg-gray-900 hover:text-white transition-all transform hover:scale-110"
+              className="w-12 h-12 flex items-center justify-center rounded-full border border-gray-300  shadow-md text-secondary hover:text-accent-pink transition-all transform hover:scale-110"
             >
               {icon}
             </a>

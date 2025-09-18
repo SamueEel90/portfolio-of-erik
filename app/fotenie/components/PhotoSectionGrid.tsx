@@ -52,7 +52,7 @@ const PhotoSectionGrid: React.FC<PhotoSectionGridProps> = ({ services }) => {
   useScrollReveal();
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
       {services.map((service, idx) => (
         <div
           key={idx}
@@ -83,11 +83,11 @@ const PhotoSectionGrid: React.FC<PhotoSectionGridProps> = ({ services }) => {
               group-hover:bg-gradient-to-t group-hover:from-black/50 group-hover:via-black/10 group-hover:to-black/10
               transition-all duration-500"
           >
-            <h3 className="text-2xl md:text-4xl font-semibold text-white drop-shadow-lg mb-2 tracking-tight group-hover:tracking-wider transition-all duration-400">
+            <h3 className="text-2xl md:text-4xl font-semibold text-light-gray glow-pink drop-shadow-lg mb-2 tracking-tight group-hover:tracking-wider transition-all duration-400">
               {service.title}
             </h3>
             {/* Short placeholder text (dynamic per item) */}
-            <p className="text-base md:text-lg text-white/90 font-light opacity-80 mb-2 max-w-xl transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-1">
+            <p className="text-base md:text-lg text-light-gray  glow-pink font-light opacity-80 mb-2 max-w-xl transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-1">
               {shortDescriptions[idx % shortDescriptions.length]}
             </p>
           </div>
@@ -114,7 +114,7 @@ const PhotoSectionGrid: React.FC<PhotoSectionGridProps> = ({ services }) => {
           {/* "Go to Galéria" button with floating effect */}
           <NextLink
             href={`/galeria/${slugify(service.title)}`}
-            className="absolute top-6 right-6 z-30 bg-white/70 hover:bg-white text-dark-gray px-4 py-2 rounded-full shadow-lg flex items-center space-x-1 transition-all duration-300 group-hover:scale-105 group-hover:-translate-y-1"
+            className="absolute top-6 right-6 z-30 bg-white/50 bg-glow-pink hover:bg-accent-pink/60 text-dark-gray px-4 py-2 rounded-full shadow-lg flex items-center space-x-1 transition-all duration-300 group-hover:scale-105 group-hover:-translate-y-1"
           >
             <span className="text-md font-semibold text-dark-gray">Galéria</span>
             <ArrowUpRight className="w-4 h-4 text-dark-gray" />
