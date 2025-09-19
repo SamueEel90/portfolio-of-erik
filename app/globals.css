@@ -2,7 +2,6 @@
 
 :root {
   font-size: 16px;
-  font-family: var(--font-yrsa);
   scroll-behavior: smooth;
 }
 
@@ -39,23 +38,12 @@ body {
   scroll-behavior: smooth;
   position: relative;
   background: #0b0d0e !important; /* true black look */
-  color: var(--color-light-gray);
+  overflow-x: hidden;
+  
 }
 
-/* Glassmorphism overlay: much darker, less brightness */
-/* body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background:
-    radial-gradient(ellipse 80% 80% at 50% 54%, rgba(30,32,35,0.24) 55%, rgba(20,24,28,0.97) 100%),
-    linear-gradient(120deg, rgba(44,44,50,0.17) 60%, rgba(20,24,28,0.16) 100%);
-  backdrop-filter: blur(30px) saturate(0.85) brightness(0.7);
-  -webkit-backdrop-filter: blur(30px) saturate(0.85) brightness(0.7);
-  box-shadow: 0 0 0 1.5px rgba(40,40,40,0.12) inset, 0 8px 40px 0 rgba(20,20,22,0.15) inset;
-} */
+
+
 
 /* Rain "droplets": much less visible for dark bg */
 body::after {

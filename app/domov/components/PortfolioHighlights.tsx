@@ -10,38 +10,11 @@ interface Props {
   items: PortfolioItem[];
 }
 
-const cardVariants = {
-  initial: { opacity: 0, y: 40, scale: 0.92, filter: "blur(3px)" },
-  animate: (i = 0) => ({
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    filter: "blur(0px)",
-    transition: {
-      delay: 0.13 + i * 0.11,
-      duration: 0.7,
-      ease: [0.4, 0, 0.2, 1],
-    },
-  }),
-};
 
-const shimmerVariants = {
-  animate: {
-    x: ["-60%", "120%"],
-    transition: {
-      x: {
-        repeat: Infinity,
-        repeatType: "loop",
-        duration: 4,
-        ease: "linear",
-      },
-    },
-  },
-};
 
 const PortfolioHighlights: React.FC<Props> = ({ items }) => {
   return (
-    <section className="w-full mx-auto my-16 px-2">
+    <section className="w-full mx-auto my-16">
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -153,7 +126,7 @@ const PortfolioHighlights: React.FC<Props> = ({ items }) => {
                 <span
                   className={`text-2xl md:text-3xl lg:text-4xl font-semibold ${item.font ?? ""} 
                     bg-gradient-to-br from-black/40 via-slate-700/10 to-white/10 backdrop-blur-md rounded-xl px-4 py-2 
-                    text-neon-blue glow-pink shadow-xl border border-white/10`}
+                    text-neon-light-blue glow-pink shadow-xl border border-white/10`}
                   style={{
                     textShadow: "0 2px 18px rgba(0,0,0,0.21)",
                     letterSpacing: ".02em",

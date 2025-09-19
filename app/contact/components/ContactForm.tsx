@@ -39,7 +39,7 @@ const ContactForm: React.FC = () => {
   };
 
   // Tailwind placeholder color class for text-secondary
-  const placeholderClass = "placeholder:text-secondary";
+  const placeholderClass = "placeholder:text-neon-bronze placeholder:opacity-70";
 
   return (
     <div className="flex justify-center items-center ">
@@ -56,7 +56,7 @@ const ContactForm: React.FC = () => {
             value={formData.name}
             onChange={handleChange}
             placeholder="Zadajte vaše meno"
-            className={`mt-1 block w-full border border-accent-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
+            className={`mt-1 block w-full border border-neon-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
           />
         </div>
 
@@ -69,7 +69,7 @@ const ContactForm: React.FC = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="Váš email"
-            className={`mt-1 block w-full border border-accent-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
+            className={`mt-1 block w-full border border-neon-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
           />
         </div>
 
@@ -82,7 +82,7 @@ const ContactForm: React.FC = () => {
             value={formData.date}
             onChange={handleChange}
             placeholder="Vyberte dátum"
-            className={`mt-1 block w-full border border-accent-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
+            className={`mt-1 block w-full border border-neon-pink rounded-lg p-3 focus:ring-1 focus:ring-dark-gray focus:outline-none ${placeholderClass}`}
           />
         </div>
 
@@ -103,7 +103,7 @@ const ContactForm: React.FC = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="w-1/2 mt-10 text-secondary py-3 border border-accent-pink rounded-3xl hover:scale-110 hover:bg-accent-pink/30 transition text-2xl"
+            className="w-1/2 mt-10 text-neon-bronze py-3 border border-neon-pink rounded-3xl hover:scale-110 hover:bg-neon-pink/30 transition text-2xl"
           >
             Odoslať
           </button>

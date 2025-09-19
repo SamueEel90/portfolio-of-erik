@@ -22,7 +22,7 @@ const ImageScrollerHomepage: React.FC = () => {
 
   return (
     <section className="w-full max-w-6xl mx-auto py-10">
-      <h2 className="text-2xl md:text-4xl mb-8 text-center font-bold tracking-tight text-secondary">
+      <h2 className="text-2xl md:text-4xl mb-8 text-center font-bold tracking-tight text-neon-bronze glow-neon-bronze">
         Sleduj ma aj na Instagrame
       </h2>
 

@@ -43,7 +43,7 @@ const ImageScrollerCategory: React.FC<Props> = ({ title, images }) => {
 
   return (
     <section className="relative w-full my-10">
-      <h3 className="text-2xl md:text-4xl font-light text-light-gray glow-pink text-center mb-4 tracking-tight">{title}</h3>
+      <h3 className="text-2xl md:text-4xl font-light text-neon-pink glow-pink text-center mb-4 tracking-tight">{title}</h3>
 
       <div className="relative w-full  mx-auto">
         {/* Image container with 16:9 ratio, advanced effects */}
@@ -111,7 +111,7 @@ const ImageScrollerCategory: React.FC<Props> = ({ title, images }) => {
             className="absolute left-3 top-1/2 -translate-y-1/2 z-30 bg-black/70 hover:bg-black/90 transition border-white/10 border p-2 rounded-full shadow-lg"
             aria-label="Previous"
           >
-            <ChevronLeft className="w-7 h-7 text-secondary" />
+            <ChevronLeft className="w-7 h-7 text-neon-bronze" />
           </button>
 
           {/* Right Arrow */}
@@ -120,7 +120,7 @@ const ImageScrollerCategory: React.FC<Props> = ({ title, images }) => {
             className="absolute right-3 top-1/2 -translate-y-1/2 z-30 bg-black/70 hover:bg-black/90 transition border-white/10 border p-2 rounded-full shadow-lg"
             aria-label="Next"
           >
-            <ChevronRight className="w-7 h-7 text-secondary" />
+            <ChevronRight className="w-7 h-7 text-neon-bronze" />
           </button>
         </div>
 

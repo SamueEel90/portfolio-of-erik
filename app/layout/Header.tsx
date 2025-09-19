@@ -21,14 +21,14 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`
-        w-full fixed top-0 left-0 z-50 transition-transform duration-500
-        ${isVisible ? "translate-y-0" : "-translate-y-full"}
-        bg-[var(--color-dark-gray)]/0 backdrop-blur-xl border-b]
-      `}
-      style={{ WebkitBackdropFilter: "blur(16px)", backdropFilter: "blur(16px)" }}
-    >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-12 py-3">
+       className={`
+    w-full font-nunito fixed top-0 left-0 z-50 transition-transform duration-500
+    ${isVisible ? "translate-y-0" : "-translate-y-full"}
+    bg-[var(--color-dark-gray)]/0 backdrop-blur-xl 
+  `}
+  style={{ WebkitBackdropFilter: "blur(16px)", backdropFilter: "blur(16px)" }}
+>
+      <div className="w-full max-w-7xl mx-auto flex items-center justify-between px-4 md:px-12 py-3">
         {/* Logo */}
         <a
           className="md:text-5xl font-monotype-corsiva text-4xl tracking-tight text-neon-light-blue glow-blue hover:te cursor-pointer select-none"
@@ -84,7 +84,7 @@ const Header: React.FC = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-[var(--color-secondary)] focus:outline-none"
+          className="md:hidden text-neon-bronze focus:outline-none"
           aria-label={isOpen ? "Close menu" : "Open menu"}
         >
           {isOpen ? <X size={32} /> : <Menu size={32} />}
@@ -150,20 +150,20 @@ const Header: React.FC = () => {
             />
           ))}
         </svg>
-        <nav className="relative z-30 flex flex-col space-y-2 p-6 text-[var(--color-light-gray)] font-medium text-xl">
-          <a href="/o-mne" className="px-2 py-1  text-secondary rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+        <nav className="relative z-30 flex flex-col space-y-2 p-6 text-neon-bronze font-medium text-xl">
+          <a href="/o-mne" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
             O mne
           </a>
-          <a href="/fotenie" className="px-2 py-1  text-secondary rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/fotenie" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
             Fotenie
           </a>
-          <a href="/eventy" className="px-2 py-1  text-secondary rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/eventy" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
             Eventy
           </a>
-          <a href="/galeria" className="px-2 py-1  text-secondary rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/galeria" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
             Galéria
           </a>
-          <a href="/contact" className="px-2 py-1  text-secondary rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/contact" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
             Kontakt / Spolupráca
           </a>
         </nav>

@@ -9,7 +9,7 @@ interface Props {
 
 const PortfolioGrid: React.FC<Props> = ({ items }) => {
   return (
-    <section className="w-full  mx-auto px-2 md:px-6 my-16">
+    <section className="w-full mx-auto  my-16">
       {/* Masonry grid: CSS columns for best cross-browser support */}
       <div
         className="
@@ -30,7 +30,7 @@ const PortfolioGrid: React.FC<Props> = ({ items }) => {
               overflow-hidden
               bg-gradient-to-br from-neon-light-blue to-neon-pink/10
               shadow-[0_6px_24px_0_rgba(30,30,32,0.13)]
-              transition-transform transition-shadow duration-400
+               transition-shadow duration-400
               hover:scale-[1.022] hover:shadow-2xl
               group
               relative

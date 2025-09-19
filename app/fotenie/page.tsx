@@ -17,10 +17,10 @@ const PhotoPage: React.FC = () => {
 
   return (
     <main className="w-full mx-auto px-4 mt-20 my-16">
-      <h2 className="text-3xl md:text-5xl text-secondary text-center mb-8">
+      <h2 className="text-3xl md:text-5xl text-neon-bronze text-center mb-8">
         Venujem sa fotografovaniu:
       </h2>
-      <p className="text-2xl text-center text-light-gray glow-pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta dolorem maxime quas velit, inventore, porro amet iusto sint quia eum quos , <br /> asperiores sed doloribus? Consectetur quidem autem exercitationem sed.</p>
+      <p className="text-2xl text-center text-neon-light-blue glow-pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta dolorem maxime quas velit, inventore, porro amet iusto sint quia eum quos , <br /> asperiores sed doloribus? Consectetur quidem autem exercitationem sed.</p>
       <PhotoSectionGrid services={services} />
 
       <div className="flex justify-center mt-10">
