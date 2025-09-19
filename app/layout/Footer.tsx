@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Bottom section: copyright */}
-        <p className="text-neon-pink font-monotype-corsiva text-xl md:text-2xl mt-8 md:mt-12">
+        <p className="text-neon-light-blue text-xl md:text-2xl mt-8 md:mt-12">
           &copy; {new Date().getFullYear()} EG Photography. beta
         </p>
       </footer>
