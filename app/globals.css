@@ -18,7 +18,6 @@
 }
 @theme {
   --color-primary: #23272a;
-  
   --color-light-gray: #e9e6e2;
   --color-background: #14181c; /* Set to very dark for true black look */
   --color-bronze: #dea935;
@@ -26,7 +25,6 @@
   --color-neon-light-blue: #b3d3f3;
   --color-neon-pink: #ffd0e7;
   --color-neon-gray: #c4def9;
-  /* Glows (all brightness reduced for dark bg) */
   --glow-bronze: 0 0 4px #6a4c23, 0 0 8px #6a4c23;
   --glow-neon-bronze: 0 0 2px #7c5633, 0 0 4px #7c5633;
   --glow-neon-gray: 0 0 4px #2c3441, 0 0 8px #3a4354;
@@ -40,7 +38,6 @@ body {
   font-family: var(--font-yrsa);
   scroll-behavior: smooth;
   position: relative;
-  min-height: 100vh;
   background: #0b0d0e !important; /* true black look */
   color: var(--color-light-gray);
 }

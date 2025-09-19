@@ -3,7 +3,7 @@ import  Link  from "next/link";
 const Footer: React.FC = () => {
   return (
     <div className="w-full">
-      <footer className="max-w-7xl mx-auto px-6 py-8 flex flex-col items-center text-center">
+      <footer className="max-w-7xl z-100 mx-auto px-6 py-8 flex flex-col items-center text-center">
         {/* Top section: logo + nav */}
         <div className="flex flex-col md:flex-row items-center md:justify-between w-full gap-6 md:gap-0">
           {/* Logo */}
