@@ -30,7 +30,7 @@ export default async function HomePage() {
     font: "font-extralight",
   },
   {
-    href: "/galeria/personal",
+    href: "/galeria/family",
     src: "/pictures/personal.jpg",
     title: "Osobné Fotografovanie",
     font: "font-light",
@@ -120,8 +120,8 @@ export default async function HomePage() {
      <Hero
   title="Erik Gunár"
   subtitle="Fotograf"
-  imageSrc="/pictures/desktop1.jpg"        // default desktop
-  imageSrcMobile="/pictures/phone1.jpg" // mobile override
+  imageSrc="/pictures/fulldesktop.jpg"        // default desktop
+  imageSrcMobile="/pictures/fullmobile.JPG" // mobile override
   href="/o-mne"
   
 />
