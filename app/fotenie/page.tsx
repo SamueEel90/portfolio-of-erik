@@ -16,7 +16,7 @@ const PhotoPage: React.FC = () => {
   ];
 
   return (
-    <main className="w-full mx-auto px-4 mt-20  my-16">
+    <main className="w-full mx-auto px-4 mt-20 my-16">
       <h2 className="text-3xl md:text-5xl text-secondary text-center mb-8">
         Venujem sa fotografovaniu:
       </h2>

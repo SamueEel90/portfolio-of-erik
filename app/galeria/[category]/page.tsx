@@ -112,7 +112,7 @@ const photos: Photo[] = [
 
 const CategoryPage: React.FC = () => {
   return (
-    <div className="md:max-w-10/12 mx-auto p-6">
+    <div className="md:max-w-10/12 mx-auto p-6 mt-20">
     
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

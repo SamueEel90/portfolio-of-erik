@@ -43,7 +43,7 @@ body {
 }
 
 /* Glassmorphism overlay: much darker, less brightness */
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   inset: 0;
@@ -55,7 +55,7 @@ body::before {
   backdrop-filter: blur(30px) saturate(0.85) brightness(0.7);
   -webkit-backdrop-filter: blur(30px) saturate(0.85) brightness(0.7);
   box-shadow: 0 0 0 1.5px rgba(40,40,40,0.12) inset, 0 8px 40px 0 rgba(20,20,22,0.15) inset;
-}
+} */
 
 /* Rain "droplets": much less visible for dark bg */
 body::after {
