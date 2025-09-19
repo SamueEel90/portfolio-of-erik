@@ -3,6 +3,11 @@
 :root {
   font-size: 16px;
   scroll-behavior: smooth;
+  --glow-bronze-amber: 0 0 1px #fb9931, 0 0 2px #d6cdb8, 0 0 1px #e4762c;
+  --glow-amber: 0 0 1px #fca311, 0 0 3px #ecad69;
+  --glow-orange: 0 0 1px #e4762c, 0 0 1px #fb9931, 0 0 2px #fca311;
+  font-family: nunito, sans-serif;
+
 }
 
 @theme inline {
@@ -14,16 +19,22 @@
   --font-lugrasimo: 'Lugrasimo', cursive;
   --font-nunito: 'Nunito', sans-serif;
   --font-monotype-corsiva: 'Monotype Corsiva', cursive;
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-press-start-2p: 'Press Start 2P', cursive;
+  --font-space-mono: 'Space Mono', monospace;
 }
+
+
 @theme {
+  --font-family-space-mono: 'Space Mono', monospace;
   --color-primary: #23272a;
   --color-light-gray: #e9e6e2;
   --color-background: #14181c; /* Set to very dark for true black look */
-  --color-bronze: #dea935;
-  --color-neon-bronze: #cd7f32;
-  --color-neon-light-blue: #b3d3f3;
-  --color-neon-pink: #ffd0e7;
-  --color-neon-gray: #c4def9;
+  
+  --color-neon-bronze: #fb9931;
+  --color-neon-light-blue: #d6cdb8; /*soft amber*/
+  --color-neon-pink: #e4762c;
+  
   --glow-bronze: 0 0 4px #6a4c23, 0 0 8px #6a4c23;
   --glow-neon-bronze: 0 0 2px #7c5633, 0 0 4px #7c5633;
   --glow-neon-gray: 0 0 4px #2c3441, 0 0 8px #3a4354;
@@ -31,10 +42,38 @@
   --glow-neon-light-blue: 0 0 8px #3ca6e6, 0 0 16px #3ca6e6;
   --glow-neon-light-blue-enhanced: 0 0 18px #3ca6e6, 0 0 30px #3ca6e6, 0 0 50px #3ca6e6;
   --glow-neon-pink: 0 0 2px #b3507b, 0 0 8px #b3507b;
+  --glow-bronze-amber: 0 0 8px #fb9931, 0 0 18px #d6cdb8, 0 0 32px #e4762c;
+  --glow-amber: 0 0 12px #fca311, 0 0 28px #fb9931;
+  --glow-orange: 0 0 6px #e4762c, 0 0 18px #fb9931, 0 0 24px #fca311;
+}
+
+/* Text glow utility classes */
+.glow-bronze-amber {
+  text-shadow: var(--glow-bronze-amber);
+}
+
+.glow-amber {
+  text-shadow: var(--glow-amber);
+}
+
+.glow-orange {
+  text-shadow: var(--glow-orange);
+}
+
+/* Box glow utility classes (for backgrounds, borders, etc.) */
+.glow-bronze-amber {
+  text-shadow: var(--glow-bronze-amber);
+}
+
+.glow-amber {
+  text-shadow: var(--glow-amber);
+}
+
+.glow-orange {
+  text-shadow: var(--glow-orange);
 }
 
 body {
-  font-family: var(--font-yrsa);
   scroll-behavior: smooth;
   position: relative;
   background: #0b0d0e !important; /* true black look */

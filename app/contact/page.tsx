@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
         <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
           <div className="relative w-full h-64 md:h-[600px]">
             <Image
-              src="/pictures/ericekmock.jpg"
+              src="/pictures/erkic.jpg"
               alt="Kontakt"
               fill
               className="object-cover rounded-lg"

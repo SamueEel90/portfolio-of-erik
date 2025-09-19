@@ -33,7 +33,7 @@ const PortfolioHighlights: React.FC<Props> = ({ items }) => {
             whileInView="animate"
             viewport={{ once: true, amount: 0.3 }}
             
-            className="group relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-xl border border-white/10
+            className="group relative w-full aspect-[4/3] rounded-md overflow-hidden shadow-xl border border-white/10
               bg-gradient-to-br from-secondary/10 via-white/10 to-black/10 transition-transform duration-500 hover:scale-[1.035]
               before:content-[''] before:absolute before:inset-0 before:z-10 before:pointer-events-none"
           >
@@ -124,9 +124,9 @@ const PortfolioHighlights: React.FC<Props> = ({ items }) => {
                 className="absolute inset-0 flex items-end justify-start p-6 z-30 pointer-events-none"
               >
                 <span
-                  className={`text-2xl md:text-3xl lg:text-4xl font-semibold ${item.font ?? ""} 
-                    bg-gradient-to-br from-black/40 via-slate-700/10 to-white/10 backdrop-blur-md rounded-xl px-4 py-2 
-                    text-neon-light-blue glow-pink shadow-xl border border-white/10`}
+                  className={`text-2xl md:text-4xl lg:text-5xl font-semibold ${item.font ?? ""} 
+                    bg-gradient-to-br from-black/60 via-slate-700/40 to-white/0 backdrop-blur-md rounded-xl px-4 py-2 
+                    text-white glow-orange shadow-xl`}
                   style={{
                     textShadow: "0 2px 18px rgba(0,0,0,0.21)",
                     letterSpacing: ".02em",

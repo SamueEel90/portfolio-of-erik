@@ -22,7 +22,7 @@ const Header: React.FC = () => {
   return (
     <header
        className={`
-    w-full font-nunito fixed top-0 left-0 z-50 transition-transform duration-500
+    w-full  fixed top-0 left-0 z-50 transition-transform duration-500
     ${isVisible ? "translate-y-0" : "-translate-y-full"}
     bg-[var(--color-dark-gray)]/0 backdrop-blur-xl 
   `}
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
       <div className="w-full max-w-7xl mx-auto flex items-center justify-between px-4 md:px-12 py-3">
         {/* Logo */}
         <a
-          className="md:text-5xl font-monotype-corsiva text-4xl tracking-tight text-neon-light-blue glow-blue hover:te cursor-pointer select-none"
+          className="md:text-5xl  text-4xl tracking-tight text-neon-light-blue glow-bronze-amber cursor-pointer select-none"
           href="/"
           aria-label="Erik Gunár Homepage"
           style={{
@@ -46,35 +46,35 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex space-x-8 text-2xl ">
           <a
             href="/o-mne"
-            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-bronze-amber"
           >
             O mne
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-pink)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/fotenie"
-            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-bronze-amber"
           >
             Fotenie
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-orange)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/eventy"
-            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-bronze-amber"
           >
             Eventy
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-secondary)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/galeria"
-            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-bronze-amber"
           >
             Galéria
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-pink)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
           </a>
           <a
             href="/contact"
-            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-neon-bronze"
+            className="relative px-2 py-1 text-neon-bronze transition-colors duration-200 hover:text-neon-pink glow-bronze-amber"
           >
             Kontakt / Spolupráca
             <span className="absolute left-1/2 -bottom-0.5 w-0 h-0.5 bg-[var(--color-accent-pink)] rounded transition-all duration-300 group-hover:w-1/2 group-hover:left-0"></span>
@@ -96,7 +96,7 @@ const Header: React.FC = () => {
         className={`
           md:hidden transition-all duration-700 ease-in-out fixed inset-x-0 z-40 
           ${isOpen ? "max-h-[320px] opacity-100 shadow-xl" : "max-h-0 opacity-0 pointer-events-none"}
-          border-t border-[var(--color-light-gray)] 
+          
         `}
         style={{
           overflow: "hidden",
@@ -150,20 +150,20 @@ const Header: React.FC = () => {
             />
           ))}
         </svg>
-        <nav className="relative z-30 flex flex-col space-y-2 p-6 text-neon-bronze font-medium text-xl">
-          <a href="/o-mne" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+        <nav className="relative z-30 flex flex-col space-y-2 p-6 text-neon-pink glow-bronze-amber text-xl">
+          <a href="/o-mne" className="px-2 py-1 " onClick={toggleMenu}>
             O mne
           </a>
-          <a href="/fotenie" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/fotenie" className="px-2 py-1 " onClick={toggleMenu}>
             Fotenie
           </a>
-          <a href="/eventy" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/eventy" className="px-2 py-1 " onClick={toggleMenu}>
             Eventy
           </a>
-          <a href="/galeria" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/galeria" className="px-2 py-1 " onClick={toggleMenu}>
             Galéria
           </a>
-          <a href="/contact" className="px-2 py-1  rounded transition-colors hover:text-[var(--color-accent-pink)]" onClick={toggleMenu}>
+          <a href="/contact" className="px-2 py-1 " onClick={toggleMenu}>
             Kontakt / Spolupráca
           </a>
         </nav>

@@ -25,14 +25,14 @@ const references = [
 const ReferencesSection: React.FC = () => {
   return (
     <section className="w-full mt-10 px-6 md:px-24 space-y-16">
-      <h2 className="text-center text-neon-bronze text-2xl md:text-4xl text-secondary mb-8 ">
+      <h2 className="text-center text-neon-bronze glow-amber text-2xl md:text-4xl  mb-8 ">
         Spokojní Klienti
       </h2>
 
       {references.map((ref, i) => (
         <div
           key={i}
-          className="relative flex flex-col md:flex-row duration-500 items-center border border-gray-200 md:items-start max-w-7xl mx-auto rounded-xl shadow-md p-8 md:p-12 gap-8 hover:shadow-lg hover:scale-105 transition-transform group"
+          className="relative flex flex-col md:flex-row duration-500 items-center border-1 border-gray-100 md:items-start max-w-7xl mx-auto rounded-sm shadow-md p-4 md:p-14 gap-4 hover:shadow-lg hover:scale-105 transition-transform group"
         >
           {/* Light border effect */}
           <span
@@ -42,12 +42,12 @@ const ReferencesSection: React.FC = () => {
             <span className="w-full h-full block rounded-2xl border-1 border-transparent group-hover:border-pink-400/30 group-hover:opacity-100 opacity-80 transition" />
             {/* Light travel animation - always visible and slower */}
             <span className="absolute inset-0 rounded-2xl overflow-hidden z-20">
-              <span className="absolute block w-2/5 h-1.5 bg-gradient-to-r from-pink-300/0 via-pink-400 to-pink-200/0 blur-lg opacity-90 animate-border-light-slow" />
+              <span className="absolute block w-2/5 h-1.5 bg-gradient-to-r from-pink-300/0 via-white-300 to-pink-200/0 blur-lg opacity-90 animate-border-light-slow" />
             </span>
           </span>
           <div className="w-full md:w-2/3 text-center md:text-left space-y-4 z-20">
-            <h3 className="text-2xl font-semibold text-neon-light-blue">{ref.name}</h3>
-            <p className=" text-neon-pink glow-pink text-lg leading-relaxed">{ref.text}</p>
+            <h3 className="text-4xl font-semibold text-neon-light-blue glow-orange">{ref.name}</h3>
+            <p className=" text-neon-light-blue text-lg ">{ref.text}</p>
           </div>
 
           {ref.image && (

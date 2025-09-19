@@ -58,8 +58,8 @@ const PortfolioGrid: React.FC<Props> = ({ items }) => {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-neon-light-blue glow-pink mb-1">{item.title}</h3>
-              <p className="text-base text-neon-pink glow-pink leading-snug">{item.description}</p>
+              <h3 className="text-2xl font-semibold text-neon-light-blue glow-amber mb-1">{item.title}</h3>
+              <p className="text-base text-neon-pink glow-amber-bronze leading-snug">{item.description}</p>
             </div>
           </div>
         ))}

@@ -118,10 +118,10 @@ const ImageScrollerHomepage: React.FC = () => {
             `}</style>
             {/* Title & Description */}
             <div className="absolute left-0 right-0 bottom-0 p-6 pb-8 bg-gradient-to-t from-black/60 via-black/20 to-transparent rounded-b-2xl z-10">
-              <h3 className="text-2xl md:text-3xl font-semibold text-neon-light-blue glow-neon-blue drop-shadow-md mb-1 tracking-tight">
+              <h3 className="text-2xl md:text-4xl text-neon-light-blue glow-amber drop-shadow-md mb-1 tracking-tight">
                 {images[currentIndex].title}
               </h3>
-              <p className="text-base md:text-lg text-neon-pink/80 drop-shadow-sm max-w-2xl">{images[currentIndex].description}</p>
+              <p className="text-base md:text-xl text-neon-pink glow-amber-bronze drop-shadow-sm max-w-2xl">{images[currentIndex].description}</p>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ const ImageScrollerHomepage: React.FC = () => {
           className="absolute left-2 md:left-5 top-1/2 -translate-y-1/2 z-30 bg-black/60 hover:bg-black/90 transition p-2 rounded-full shadow-lg border border-white/10"
           aria-label="Previous image"
         >
-          <ChevronLeft className="w-7 h-7 text-neon-light-blue glow-neon-light-blue" />
+          <ChevronLeft className="w-7 h-7 text-neon-light-blue glow-amber" />
         </button>
         {/* Right Arrow */}
         <button
@@ -139,7 +139,7 @@ const ImageScrollerHomepage: React.FC = () => {
           className="absolute right-2 md:right-5 top-1/2 -translate-y-1/2 z-30 bg-black/60 hover:bg-black/90 transition p-2 rounded-full shadow-lg border border-white/10"
           aria-label="Next image"
         >
-          <ChevronRight className="w-7 h-7 text-neon-light-blue glow-neon-light-blue" />
+          <ChevronRight className="w-7 h-7 text-neon-light-blue glow-amber-bronze" />
         </button>
       </div>
       {/* Dots */}
