@@ -120,8 +120,8 @@ export default async function HomePage() {
      <Hero
   title="Erik Gunár"
   subtitle="Fotograf"
-  imageSrc="/pictures/fulldesktop.jpg"        // default desktop
-  imageSrcMobile="/pictures/fullmobile.JPG" // mobile override
+  imageSrc="/pictures/fulldesktop.JPG"        // default desktop
+  imageSrcMobile="/pictures/mobile.JPG" // mobile override
   href="/o-mne"
   
 />
